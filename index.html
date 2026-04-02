@@ -1,30 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante ai que Fome</title>
+    <style>
+        * {
+            /*margin: 0;*/
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #7AA7F5;
+        }
+
+        #home {
+            background-color: #9C7AF5;
+        }
+
+      /*  #menu_delicioso {
+            background-color: #7A80F5;
+        }
+
+        #prato_dia {
+            background-color: #7ACEF5;
+        }
+        */
+        main{
+            background-color: #7A80F5;
+        }
+        #contato {
+            background-color: #C47AF5;
+        }
+
+        #local_redes {
+            background-color: #BA6741;
+        }
+
+        body {
+            background-color: #CCCEF5;
+        }
+
+        h1 {
+            background-color: rgb(8, 63, 136);
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
-        <img src="imagens/logo_restaurante.png" alt="">
+        <img src="imagens/logo_restaurante.png" alt>
         <h1>Restaurante ai que Fome</h1>
+        <nav>
+            <ul>
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#menu_delicioso">
+                    <li>Menu Delicioso</li>
+                </a>
+                <a href="#prato_dia">
+                    <li>Prato do dia</li>
+                </a>
+                <a href="#contato">
+                    <li>Contato</li>
+                </a>
+                <a href="#local_redes">
+                    <li>Localização e Redes
+                        Sociais</li>
+                </a>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section id="home">
+            <h2>Nossa História</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dicta, explicabo ipsa molestias aliquid voluptatem
+                consectetur eligendi. Eum iste architecto, dicta, pariatur
+                excepturi nihil numquam voluptates amet eligendi
+                perspiciatis consectetur vitae.</p>
+
+        </section>
+
+        <section id="menu_delicioso">
             <h2>Menu Delicioso</h2>
             <ol>
                 <li>Entradas
                     <ul>
-                        <li><a href="https://picsum.photos/seed/picsum/150/150">Salada Caesar</a></li>
+                        <li><a href="https://picsum.photos/seed/picsum/150/150">Salada
+                                Caesar</a></li>
                         <li><a href="https://picsum.photos/seed/picsum/150/150">Bruschetta</a></li>
                     </ul>
                 </li>
                 <li>Pratos Principais
                     <ul>
-                        <li><a href="https://picsum.photos/seed/picsum/150/150">Filé ao Molho</a></li>
+                        <li><a href="https://picsum.photos/seed/picsum/150/150">Filé
+                                ao Molho</a></li>
                         <li><a href="https://picsum.photos/seed/picsum/150/150">Lasanha</a></li>
                     </ul>
                 </li>
@@ -36,7 +113,7 @@
                 </li>
             </ol>
         </section>
-        <section>
+        <section id="prato_dia">
             <h2>Promoções do Dia</h2>
             <table border="1">
                 <thead>
@@ -57,7 +134,7 @@
                     </tr>
                     <tr>
                         <td>(para 4 pessoas)</td>
-                        
+
                     </tr>
                     <tr>
                         <td>Filé ao Molho</td>
@@ -67,16 +144,21 @@
                 </tbody>
             </table>
         </section>
-    </main>
 
-    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+
+        </section>
+    </main>
+    <footer id="local_redes">
         <p>Localização: Rua das Flores, 123 - São Paulo, SP</p>
         <p>Telefone: (11) 9999-9999</p>
         <div>
             <a href="#"><img src="imagens/face.jpg" alt="Facebook"></a>
             <a href="#"><img src="imagens/insta.jpg" alt="Instagram"></a>
-           
+
         </div>
     </footer>
 </body>
+
 </html>
